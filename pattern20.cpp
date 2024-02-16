@@ -11,8 +11,8 @@ int main()
         int j=0;
         char start='A'+i;
         while(j<n){
-            cout<<char(start+j)<<" ";
-           // start++;
+            cout<<start<<" ";
+           start++;
             j++;
         }
         cout<<endl;
